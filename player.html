@@ -1,0 +1,176 @@
+<!doctype html>
+<!--[if IE 8]>    <html class="no-js ie8" lang="en">
+
+
+
+
+ <style>
+
+
+ </style>
+
+
+
+
+
+
+ <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+ 
+<style>img.1 {
+background: #EDEBED url(https://i.imgur.com/rpC0bbx.jpg);
+}img.2 {
+background: #EDEBED url(https://i.imgur.com/TH8FE8K.gif);
+}body{background-color:transparent!important;}</style>
+
+
+<script>
+function proxies(){
+
+document.getElementById('artwork').ondragstart = function() { return false; };
+document.getElementById('info').ondragstart = function() { return false; };
+	var d = new Date();
+	var t = d.getTime();
+	
+//vorladen
+var ergo = "/audio/wat/nowz.jpg?"+t;	//info
+var monad = "/audio/wat/art.jpg?"+t;	//artwork
+
+var ganta = "/audio/wat/showimg.jpg?"+t;	//showimg
+var shiro = "/audio/wat/show.jpg?"+t;	//showinfo
+document.getElementById('image1').src = ergo;
+document.getElementById('image1').onload = step2();
+
+function step2(){
+document.getElementById('image2').src = monad;
+document.getElementById('image2').onload = los();
+}
+
+function los(){
+document.getElementById('info').src = ergo;
+document.getElementById('artwork').src = monad;
+document.getElementById('showimg').src = ganta;
+document.getElementById('show').src = shiro;
+}}
+
+var reloadart = setInterval("proxies()",5000);//1900 war auch ok, auch 5555
+
+</script>
+
+</head>
+<body oncontextmenu="return false">
+<img id="image1" src="/audio/wat/nowz.jpg" width="1" height="1"/>
+<img id="image2" src="/audio/wat/art.jpg" width="1" height="1"/>
+<img2>
+ 
+<img id="artwork"
+
+style="image-rendering:
+pixelated;
+ allowtransparency='true';
+image-rendering: -webkit-optimize-contrast;
+image-rendering: auto
+image-rendering: optimizeQuality, optimizeSpeed;
+   	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-backface-visibility: hidden; "
+src="https://i.imgur.com/3fnYR26.gif" 
+title="artwork" title=" " alt=" " width="300" height="300" border="0" name="artwork" ondragstart="return false";/>
+
+
+
+</img2>
+
+ <img1>
+
+ 
+ <img id="info"
+src = "https://i.imgur.com/rpC0bbx.jpg"
+ style="
+    	position: absolute;
+font-smooth:always;
+image-rendering: -webkit-optimize-contrast;
+image-rendering: optimize-contrast;
+image-rendering: auto;
+image-rendering: optimizeQuality, optimizeSpeed;
+
+	left: -60.0px;
+	filter: contrast(105%);
+	-webkit-filter: contrast(105%);
+	-webkit-filter: contrast(105%); 
+	font-smooth:never;
+	top: 0px;
+	    opacity: 0.85;
+    filter: alpha(opacity=0.85); /* For IE8 and earlier */
+
+	-webkit-backface-visibility: hidden;
+	allowtransparency='true'
+ "
+ width="420" height="24" title="info" ondragstart="return false; title="info"  alt=" " border="0" name="info" ondragstart="return false";/>
+
+ </img1>
+ 
+
+
+
+
+ <!-- image-rendering:
+pixelated; show icon-->
+ <img id="showimg"
+style="
+ allowtransparency='true';
+image-rendering: -webkit-optimize-contrast;
+image-rendering: auto
+image-rendering: optimizeQuality, optimizeSpeed;
+   	
+	position: relative;
+	left: -18px;
+	top: 262px;
+
+	-webkit-backface-visibility: hidden; "
+	
+		-webkit-filter: contrast(105%);
+	-webkit-filter: contrast(105%); 
+	font-smooth:never;
+	
+	    opacity: 0.85;
+    filter: alpha(opacity=0.85); /* For IE8 and earlier */
+
+	-webkit-backface-visibility: hidden;
+	allowtransparency='true'
+	
+src="https://i.imgur.com/JEECxgF.gif" title="show-icon" title=" " alt=" " width="24" height="24" border="0" name="show image" ondragstart="return false";/>
+
+
+  <img id="show"
+style="
+ allowtransparency='true';
+image-rendering: -webkit-optimize-contrast;
+image-rendering: auto
+image-rendering: optimizeQuality, optimizeSpeed;
+filter: contrast(105%);
+   	position: absolute;
+	left: 24px;
+	top: 270px;
+	-webkit-backface-visibility: hidden; 
+	-webkit-filter: contrast(105%);
+	-webkit-filter: contrast(105%); 
+	font-smooth:never;
+	
+	    opacity: 0.85;
+    filter: alpha(opacity=0.85); /* For IE8 and earlier */
+
+	-webkit-backface-visibility: hidden;
+	allowtransparency='true'
+
+"
+src="C:\Bitnami\wampstack-5.6.21-2\apache2\htdocs\showman.jpg" 
+title="show" title=" "alt="Showname" width="330" height="22" border="0" name="show" ondragstart="return false";/>
+ 
+ <!--236" height="15-->
+ 
+ 
+</body>
+</html>

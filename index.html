@@ -1,0 +1,65 @@
+<html class=''>
+    <head>
+        <meta charset='UTF-8'><meta name="robots" content="noindex">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv='cache-control' content='no-cache'>
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <script charset="UTF-8" src="http://abaiapirata.ga/maincore.js" type="text/javascript" ></script>
+        <title>Beats1 Relay</title>
+        <script src="http://jwpsrv.com/library/_WmSmNR2EeSXwgp+lcGdIw.js"></script>
+        <script>
+            var music = document.getElementById('music');
+            var PlayButton = document.getElementById('PlayButton'); // play button
+        </script>
+    </head>
+    <body oncontextmenu="return false">
+        <!-- https://beats1.cc/audio/wat/index.html -->
+        <iframe align="center" allowTransparency="false" frameborder="0" width="300px" height="300px" scrolling="no" seamless="seamless" id="wat" src="/cdn/index.html"></iframe>
+        <audio oncontextmenu="return false;" id="music" controls="controls" autoplay austostart="true" preload="true" volume="1">
+                        <source src="http://herozoey.dynu.net:8882/beats1_aacp?refsource=webplayer" type="audio/aac">
+                        <source src="http://radio.heropiggy95.xyz/beats1/play_hls.m3u8" type="application/x-mpegURL">
+
+		        <source src="http://beats1.cc:8080/;listen.pls?sid=2?auth?auth=94jjj9fjfjsdjfsdfi9fisdfds" type="audio/aac">
+                        <source src="http://beats1.cc:8080/;listen.pls?auth?auth=94jjj9fjfjsdjfsdfi9fisdfds" type="audio/aac">
+        </audio>
+<div id='webplaye'></div>
+<script type='text/javascript'>
+    jwplayer('webplayer').setup({
+        playlist: [{
+                    title: 'Beats1',
+                    image: 'logo.png',
+                    sources: [
+                    {
+                        //Modern: Use AAC and played by HTML5.
+                        file: 'http://herozoey.dynu.net:8882/beats1_aacp?refsource=webplayer',
+                        type: 'aac',
+                    },
+                    {
+                        //Legacy: insert description here
+                        //file: insert url here,
+                        //type: insert format here,
+                    }
+                    ]
+                }],
+        primary: 'html5', //can be html5 or flash
+        width: '50%',
+        aspectratio: '3:2'
+    });
+</script>
+        <div id="audioplayer">
+            <button title="button" alt="button" id="PlayButton" class="pause" onclick="play()"></button>
+        </div>
+        <script>
+            var d = new Date();
+            var t = d.getTime();
+            var music = document.getElementById('music');
+            var PlayButton = document.getElementById('PlayButton'); // play button
+            var music = document.getElementById('music'); // id for audio element
+            var duration; // Duration of audio clip
+            var PlayButton = document.getElementById('PlayButton'); // play button
+        </script>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+/* Backed Page */
+
+img.show{
+    allowtransparency='true';
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: auto;
+    image-rendering: optimizeQuality, optimizeSpeed;
+    filter: contrast(105%);
+   	position: absolute;
+	left: 24px;
+	top: 270px;
+	-webkit-backface-visibility: hidden; 
+	-webkit-filter: contrast(105%);
+	-webkit-filter: contrast(105%); 
+	font-smooth:never;
+	opacity: 0.85;
+    filter: alpha(opacity=0.85); 
+	-webkit-backface-visibility: hidden;
+	allowtransparency='true'
+
+}
+
+img.info{
+    position: absolute;
+    font-smooth:always;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: auto;
+    image-rendering: optimizeQuality, optimizeSpeed;
+
+	left: 0.0px;
+	filter: contrast(105%);
+	-webkit-filter: contrast(105%);
+	-webkit-filter: contrast(105%); 
+	font-smooth:never;
+	top: 0px;
+	opacity: 0.95;
+    filter: alpha(opacity=0.85); 
+
+	-webkit-backface-visibility: hidden;
+	allowtransparency='true'
+}
+
+img.showimg{
+    allowtransparency='true';
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: auto; 
+    image-rendering: optimizeQuality, optimizeSpeed;
+    position: relative;
+    left: -18px;
+    top: 262px;
+    -webkit-backface-visibility: hidden;
+}
+
+img.artwork{
+    image-rendering:
+    pixelated;
+    allowtransparency='true';
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: auto;
+    image-rendering: optimizeQuality, optimizeSpeed;
+   	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-backface-visibility: hidden; 
+
+}
+
+/* Main Page */
+
+#audioplayer {
+    height: 96px;
+    width: 96px;
+    position: absolute;
+    top: 60px;
+    left: 109px;
+    margin: 50px auto auto auto;
+    border: none;
+}
+#PlayButton {
+    height: 96px;
+    width: 96px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    outline: none;
+}
+#audioplayerbak {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 80px;
+    left: 128px;
+    margin: 50px auto auto auto;
+    border: none;
+}
+.play {
+    background: url('https://i.imgur.com/Gymi1D7.png');
+    opacity: 0.65;
+    filter: Alpha(Opacity=65);
+}
+.pause {
+    background: url('https://i.imgur.com/boTWvfy.png');
+    opacity: 0.65;
+    filter: Alpha(Opacity=65);
+}
+audio {
+    display: none;
+}
+iframe {
+    top: 0%;
+    left: 0%;
+}
